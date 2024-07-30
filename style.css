@@ -1,0 +1,35 @@
+/* styles.css */
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: #000;
+}
+
+#game-container {
+    position: relative;
+}
+
+#wasd-controls {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+}
+
+#wasd-controls button {
+    margin: 5px;
+    width: 60px;
+    height: 60px;
+    font-size: 20px;
+}
+
+#gameCanvas {
+    border: 1px solid #fff;
+}
